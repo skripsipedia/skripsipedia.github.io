@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy - BELAJAR</title>
+    <meta name="description" content="Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy, , , , , , , 0, , , , , , 0, jelaskan-apa-yang-dimaksud-dengan-entropy-dan-negentropy, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy - BELAJAR" />
+    <meta property="og:description" content="Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy, , , , , , , 0, , , , , , 0, jelaskan-apa-yang-dimaksud-dengan-entropy-dan-negentropy, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy - BELAJAR" />
+    <meta name="twitter:description" content="Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy, , , , , , , 0, , , , , , 0, jelaskan-apa-yang-dimaksud-dengan-entropy-dan-negentropy, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://skripsipedia.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://skripsipedia.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://skripsipedia.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://skripsipedia.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://skripsipedia.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://skripsipedia.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://skripsipedia.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://skripsipedia.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://skripsipedia.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://skripsipedia.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">sunflowerrrh</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Jelaskan+Apa+Yang+Dimaksud+Dengan+Entropy+Dan+Negentropy" alt="Jelaskan Apa Yang Dimaksud Dengan Entropy Dan Negentropy">
+                    </div>
+                    <p></p>
+                    <p>maksud dari negentropy adalah?​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#maksud-dari-negentropy-adalah%e2%80%8b">1.
+                                            maksud dari negentropy adalah?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-entropy%e2%80%8b">2.
+                                            Apa Yang Dimaksud Dengan "Entropy"?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-hubungan-teori-betty-nauman-dengan-entropy">3.
+                                            Apa hubungan teori betty nauman dengan entropy? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-different-in-form-from-their-original-state-typically-a">4.
+                                            Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers.What's kind of plastic that require greater processing to be recycled? aplastic bbag plastic cbottle plastic dplastic polymer</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#i-have-no-doubt-that-some-will-read-the-byline-of-this-editorial-and-conveniently-turn-off-or-tune-out-without-considering-an-iota-of-the-argument-or-rhetoric-presented-%c2%a0-it-isnt-my-country-the">5.
+                                            I have no doubt that some will read the byline of this editorial and conveniently turn off or tune out without considering an iota of the argument or rhetoric presented.  It isn't my country, they certainly are not my children, and whether this country implodes or soars to the heights of success makes little difference to me.
+So what is the major malfunction of the Indonesian education system?    Does anyone seriously believe 'education' in  Indonesia is on par with the west, or even Asian countries like Japan, Korea or Singapore?  Ask the question another way: If you had to have spinal or brain surgery, would you prefer to have that surgery performed here in Jakarta, in Singapore or Hong Kong?  
+If you answered 'here in Indonesia', I would presume you either have a very decently western-trained physician, or else no resources whatsoever.  Or at least, none of my Indonesian friends with any money has ever had major medical procedures performed here.  They very readily say they would rather fly to Singapore than trust an Indonesian doctor to open them up.  Which is all one needs to know when it comes to 'evidence'of the torturous state of Indonesian education.
+Certainly we can take a good deal of time arguing about whose fault it is ' but the more immediate and pressing question ought to be why Indonesia has not followed in the footsteps of Hong Kong, South Korea, Singapore and Japan.  
+Rather than chasing red herrings that lead to nowhere, let us tackle the real problems plaguing the system. Better to kill the disease than merely react the symptoms, after all.
+To all of this I am certain there will come shrill protests that my own country, America, is no shining example to follow.  Indeed, my country has created successive generations of people so devoid of morality that it is soon doomed to entropy in the same way that the Roman Empire did.  
+But one fault is not remedied by pointing out another, and as much as it may please the senses, arguing about my country's shortcomings does nothing to address the issues that plague Indonesia's education system.
+So what are the major issues here in Indonesia?  Let us look at a few.  
+First, corruption: the graft and corruption that is Indonesia is almost unparalleled in scope, and its influence on the educational infrastructure of the country can not be overstated.  It is no mistake that diplomas being easily purchased and cash-laden envelopes greasing the wheels for degrees that have not been actually earned play a large part of the reasoning behind informed, well-off people in Indonesia traveling overseas to get medical attention.
+Second, integrity (a close cousin of the whole 'corruption' thing).  There is none here.  The same person who smiles and assures you all is fine will 10 seconds later stab you in the back with no more than a flinch of a thought, if that.  
+This general deficiency quite literally bleeds into the educational system in this country. You know, the whole idea of paying for scores related to the national exams (UN) administered, the additional concept (practiced regularly) of envelopes of cash exchanged with administrators or teachers that, magically (or not so magically) seem to correlate to above average marks for students who clearly can barely spell their own names, let alone count and reason higher-level arithmetic.
+And thus we come back to the reason well-off Indonesians and expatriates travel overseas for serious medical treatment.
+Does anyone see a pattern here?    That I managed to suck $40,000 plus out of your economy (in US$, by the way, not Rp) is just further evidence of where I was educated, and conversely where I was not educated.  Enough said.
+The writer, who holds a Master's degree in education and a Bachelor's degree in political science and English literature, teaches at an international school in Jakarta</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-diketahui-fluida-air-h%e2%82%82o-memiliki-sifatnilai-temperatur-t-%c2%b0c-tekanan-p-bar-volume-spesifik-v-m%c2%b3kg-energi-dalam-u-kjkg-enthalpy-h-kjkg-entropy-s-kjkg-k">6.
+                                            1. Diketahui fluida air (H₂O) memiliki sifat/nilai temperatur (T, °C); tekanan (p, bar); volume spesifik (v, m³/kg); energi dalam (u, kJ/kg); enthalpy (h, kJ/kg); entropy (s, kJ/kg.K). Jika diketahui dua sifat/nilai tertentu maka dapat diketahui sifat/nilai yang lain. Dengan menggunakan tabel uap tentukan sifat/nilai yang lain jika diketahui : a. T=78°c; uap jenuhb. p=50 bar; cair jenuhc. p=4,5 bar; x=0,7d. T=270°c; v=0,15m³/kgT=80°c; h=2500kj/kg​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-carikan-verb-dan-subjeknya-tolongg-bgtttt-6-plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-diff">7.
+                                            Tolong carikan verb dan subjeknya tolongg bgtttt 6. Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state.  7. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable.  8. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled.  9. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains.  10. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers. </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hitunglah-entropy-dan-information-gain-dari-data-berikut">8.
+                                            Hitunglah Entropy dan Information Gain dari data berikut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-if-two-different-systems-are-put-in-thermal-contact-so-that-heat-can-flow-from-one-to-the-other-then-heat-will-flow-until-the-systems-have-the-same-a-energy-b-heat-capacity-c-en">9.
+                                            2. If two different systems are put in thermal contact so that heat can flow from one to the other, then heat will flow until the systems have the same    (a) energy.     (b) heat capacity.     (c) entropy.     (d) temperature. </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-pencapaian-untuk-1-keputusasaanwell-mmmh-quis-viralvtentukan-banyaknya-cara-menyusun-dari-dari-1-the-book-of-us2-entropy3-pythagorean%e2%a0%80%e2%a0%80%e2%a0%80%e2%a0%80%e2%a0%80%e2%a0%80">10.
+                                            1 pencapaian untuk 1 KeputusasaanWell, mmmh..Quis VIRAL:VTentukan banyaknya cara menyusun dari  dari :1. The Book of Us2. Entropy3. Pythagorean⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀.⠀⠀⠀ ⠀⠀RUNTHIS⠀⠀▹▹ EXO - DROPTHAT01:01 ─〇─── Not Found⠀ ⠀ ⠀⇄ ◃◃ ⅠⅠ ▹▹ ↻​​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#i-have-no-doubt-that-some-will-read-the-byline-of-this-editorial-and-conveniently-turn-off-or-tune-out-without-considering-an-iota-of-the-argument-or-rhetoric-presented-%c2%a0-it-isnt-my-country-the">11.
+                                            I have no doubt that some will read the byline of this editorial and conveniently turn off or tune out without considering an iota of the argument or rhetoric presented.  It isn't my country, they certainly are not my children, and whether this country implodes or soars to the heights of success makes little difference to me.
+So what is the major malfunction of the Indonesian education system?    Does anyone seriously believe 'education' in  Indonesia is on par with the west, or even Asian countries like Japan, Korea or Singapore?  Ask the question another way: If you had to have spinal or brain surgery, would you prefer to have that surgery performed here in Jakarta, in Singapore or Hong Kong?  
+If you answered 'here in Indonesia', I would presume you either have a very decently western-trained physician, or else no resources whatsoever.  Or at least, none of my Indonesian friends with any money has ever had major medical procedures performed here.  They very readily say they would rather fly to Singapore than trust an Indonesian doctor to open them up.  Which is all one needs to know when it comes to 'evidence'of the torturous state of Indonesian education.
+Certainly we can take a good deal of time arguing about whose fault it is ' but the more immediate and pressing question ought to be why Indonesia has not followed in the footsteps of Hong Kong, South Korea, Singapore and Japan.  
+Rather than chasing red herrings that lead to nowhere, let us tackle the real problems plaguing the system. Better to kill the disease than merely react the symptoms, after all.
+To all of this I am certain there will come shrill protests that my own country, America, is no shining example to follow.  Indeed, my country has created successive generations of people so devoid of morality that it is soon doomed to entropy in the same way that the Roman Empire did.  
+But one fault is not remedied by pointing out another, and as much as it may please the senses, arguing about my country's shortcomings does nothing to address the issues that plague Indonesia's education system.
+So what are the major issues here in Indonesia?  Let us look at a few.  
+First, corruption: the graft and corruption that is Indonesia is almost unparalleled in scope, and its influence on the educational infrastructure of the country can not be overstated.  It is no mistake that diplomas being easily purchased and cash-laden envelopes greasing the wheels for degrees that have not been actually earned play a large part of the reasoning behind informed, well-off people in Indonesia traveling overseas to get medical attention.
+Second, integrity (a close cousin of the whole 'corruption' thing).  There is none here.  The same person who smiles and assures you all is fine will 10 seconds later stab you in the back with no more than a flinch of a thought, if that.  
+This general deficiency quite literally bleeds into the educational system in this country. You know, the whole idea of paying for scores related to the national exams (UN) administered, the additional concept (practiced regularly) of envelopes of cash exchanged with administrators or teachers that, magically (or not so magically) seem to correlate to above average marks for students who clearly can barely spell their own names, let alone count and reason higher-level arithmetic.
+And thus we come back to the reason well-off Indonesians and expatriates travel overseas for serious medical treatment.
+Does anyone see a pattern here?    That I managed to suck $40,000 plus out of your economy (in US$, by the way, not Rp) is just further evidence of where I was educated, and conversely where I was not educated.  Enough said.
+The writer, who holds a Master's degree in education and a Bachelor's degree in political science and English literature, teaches at an international school in Jakarta
+tolong di translate</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-different-in-form-from-their-original-state-typically-a">12.
+                                            Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers. Is plastic recycled into the same type of plastic? aYes, it is. bNo, it isn't. cYes, it does. dNo, it doesn't.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#quis-1002-dari-akun-ke-25-exology01tentukan-banyaknya-susunan-dari-kata-1-negentropy2-jae-park%e2%80%8b">13.
+                                            Quis 100/2 dari akun ke 25 @Exology01Tentukan banyaknya susunan dari kata :1. Negentropy2. Jae Park​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-different-in-form-from-their-original-state-typically-a">14.
+                                            Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers.the paragraph above to fill in questions number 1 to 31. What is plastic recycling mean?4 poinThe process of how to make a bottle of plasticThe process of recovering scrap or waste plastics and reprocessing the material into useful productThe way to collect plastics.Step to selling plastics’ product.2. Is plastic recycled into the same type of plastic?4 poinNo, it isn’t.Yes, it isNo, it doesn’t.Yes, it does.3. What’s kind of plastic that require greater processing to be recycled?4 poinbottle plasticbag plasticplastic polymerplastic4. A tsunami is a very large sea wave that is … by a disturbance along the floor of the ocean.4 poinmobilizedgeneratedinfluencedappreciated5. The drugs … by Alysa, she got influenza.4 poinhas drankhave drankhas been drankhad been drank</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#steam-expands-in-a-turbine-steadily-at-a-rate-of-25000-kgh-entering-at-6-mpa-and-450%c2%b0c-and-leaving-at-20-kpa-as-saturated-vapor-if-the-power-generated-by-the-turbine-is-4-mw-determine-the-ra">15.
+                                            Steam expands in a turbine steadily at a rate of 25,000 kg/h, entering at 6 mpa and 450°c and leaving at 20 kpa as saturated vapor. if the power generated by the turbine is 4 mw, determine the rate of entropy generation for this process. assume the surrounding medium is at 25°c.​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="maksud-dari-negentropy-adalah%e2%80%8b">
+                            1. maksud dari negentropy adalah?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>negentropy adalah suatu keadaan yang menggambarkan bahwa isi kesadaran tersusun dengan baik, pengetahuan yang satu terkait dengan perasaan atau sikapnya.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-entropy%e2%80%8b">
+                            2. Apa Yang Dimaksud Dengan "Entropy"?​</h2><br />
+                        <p></p><p><strong>Jawaban:</strong></p><p>Entropi adalah salah satu besaran termodinamika yang mengukur energi dalam sistem per satuan temperatur yang tak dapat digunakan untuk melakukan usaha.</p><p></p><p>maap klo slh </p><p><strong>Jawaban:</strong></p><p>Entropi adalah sifat termodinamika yang penting dari sebuah zat, dimana harganya akan meningkat ketika ada penambahan kalor dan menurun ketika terjadi pengurangan kalor.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-hubungan-teori-betty-nauman-dengan-entropy">
+                            3. Apa hubungan teori betty nauman dengan entropy? </h2><br />
+                        bxdzhehzhehaehshehahe<br />
+                                            <h2 class="ez-toc-section" id="plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-different-in-form-from-their-original-state-typically-a">
+                            4. Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers.What's kind of plastic that require greater processing to be recycled? aplastic bbag plastic cbottle plastic dplastic polymer</h2><br />
+                        d. plastic polymer<br />semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="i-have-no-doubt-that-some-will-read-the-byline-of-this-editorial-and-conveniently-turn-off-or-tune-out-without-considering-an-iota-of-the-argument-or-rhetoric-presented-%c2%a0-it-isnt-my-country-the">
+                            5. I have no doubt that some will read the byline of this editorial and conveniently turn off or tune out without considering an iota of the argument or rhetoric presented.  It isn't my country, they certainly are not my children, and whether this country implodes or soars to the heights of success makes little difference to me.
+So what is the major malfunction of the Indonesian education system?    Does anyone seriously believe 'education' in  Indonesia is on par with the west, or even Asian countries like Japan, Korea or Singapore?  Ask the question another way: If you had to have spinal or brain surgery, would you prefer to have that surgery performed here in Jakarta, in Singapore or Hong Kong?  
+If you answered 'here in Indonesia', I would presume you either have a very decently western-trained physician, or else no resources whatsoever.  Or at least, none of my Indonesian friends with any money has ever had major medical procedures performed here.  They very readily say they would rather fly to Singapore than trust an Indonesian doctor to open them up.  Which is all one needs to know when it comes to 'evidence'of the torturous state of Indonesian education.
+Certainly we can take a good deal of time arguing about whose fault it is ' but the more immediate and pressing question ought to be why Indonesia has not followed in the footsteps of Hong Kong, South Korea, Singapore and Japan.  
+Rather than chasing red herrings that lead to nowhere, let us tackle the real problems plaguing the system. Better to kill the disease than merely react the symptoms, after all.
+To all of this I am certain there will come shrill protests that my own country, America, is no shining example to follow.  Indeed, my country has created successive generations of people so devoid of morality that it is soon doomed to entropy in the same way that the Roman Empire did.  
+But one fault is not remedied by pointing out another, and as much as it may please the senses, arguing about my country's shortcomings does nothing to address the issues that plague Indonesia's education system.
+So what are the major issues here in Indonesia?  Let us look at a few.  
+First, corruption: the graft and corruption that is Indonesia is almost unparalleled in scope, and its influence on the educational infrastructure of the country can not be overstated.  It is no mistake that diplomas being easily purchased and cash-laden envelopes greasing the wheels for degrees that have not been actually earned play a large part of the reasoning behind informed, well-off people in Indonesia traveling overseas to get medical attention.
+Second, integrity (a close cousin of the whole 'corruption' thing).  There is none here.  The same person who smiles and assures you all is fine will 10 seconds later stab you in the back with no more than a flinch of a thought, if that.  
+This general deficiency quite literally bleeds into the educational system in this country. You know, the whole idea of paying for scores related to the national exams (UN) administered, the additional concept (practiced regularly) of envelopes of cash exchanged with administrators or teachers that, magically (or not so magically) seem to correlate to above average marks for students who clearly can barely spell their own names, let alone count and reason higher-level arithmetic.
+And thus we come back to the reason well-off Indonesians and expatriates travel overseas for serious medical treatment.
+Does anyone see a pattern here?    That I managed to suck $40,000 plus out of your economy (in US$, by the way, not Rp) is just further evidence of where I was educated, and conversely where I was not educated.  Enough said.
+The writer, who holds a Master's degree in education and a Bachelor's degree in political science and English literature, teaches at an international school in Jakarta</h2><br />
+                        i agree with you but you cant explained thath way<br />
+                                            <h2 class="ez-toc-section" id="1-diketahui-fluida-air-h%e2%82%82o-memiliki-sifatnilai-temperatur-t-%c2%b0c-tekanan-p-bar-volume-spesifik-v-m%c2%b3kg-energi-dalam-u-kjkg-enthalpy-h-kjkg-entropy-s-kjkg-k">
+                            6. 1. Diketahui fluida air (H₂O) memiliki sifat/nilai temperatur (T, °C); tekanan (p, bar); volume spesifik (v, m³/kg); energi dalam (u, kJ/kg); enthalpy (h, kJ/kg); entropy (s, kJ/kg.K). Jika diketahui dua sifat/nilai tertentu maka dapat diketahui sifat/nilai yang lain. Dengan menggunakan tabel uap tentukan sifat/nilai yang lain jika diketahui : a. T=78°c; uap jenuhb. p=50 bar; cair jenuhc. p=4,5 bar; x=0,7d. T=270°c; v=0,15m³/kgT=80°c; h=2500kj/kg​</h2><br />
+                        <p>a. Jika T=78°C dan <strong>uap jenuh</strong>, maka:</p>p = 0.2069 barv = 1.151 m³/kgu = 2570.2 kJ/kgh = 2676.5 kJ/kgs = 7.3708 kJ/kg.K<p></p><p>b. Jika p=50 bar dan cair jenuh, maka:</p>T = 365.3°Cv = 0.0912 m³/kgu = 3040.6 kJ/kgh = 3210.3 kJ/kgs = 6.7071 kJ/kg.K<p></p><p>c. Jika p=4,5 bar dan x=0,7:</p>T = 151.4°Cv = 0.1788 m³/kgu = 2669.7 kJ/kgh = 2832.3 kJ/kgs = 7.4552 kJ/kg.K<p></p><p>d. Jika T=270°C dan v=0.15 m³/kg:</p>p = 47.89 baru = 3175.3 kJ/kgh = 3353.3 kJ/kgs = 7.5324 kJ/kg.K<p></p><p>e. T=80°C dan h=2500 kJ/kg:</p>p = 0.1863 barv = 1.0623 m³/kgu = 2452.9 kJ/kgs = 6.7688 kJ/kg.K<p></p>Penjelasan dan Langkah-langkah<p></p><p>a. Diketahui T=78°C dan uap jenuh, kita bisa menggunakan <strong>tabel uap </strong>untuk mencari nilai tekanan (p), volume spesifik (v), energi dalam (u), enthalpy (h), dan entropy (s).</p><p></p><p>Untuk menentukan sifat/nilai yang lain, mari kita lihat tabel uap air pada suhu 78°C:</p><p></p><p>| T (°C)  |  p (bar)   | v (m³/kg) | u (kJ/kg) | h (kJ/kg)    | s (kJ/kg.K) |</p><p>|----------|--------------|--------------|---------------|---------------|-----------------|</p><p>|  78     | 0.2069   |    1.151     |  2570.2    | 2676.5    |   7.3708     |</p><p></p><p>Jadi, jika T=78°C dan uap jenuh:</p>p = 0.2069 barv = 1.151 m³/kgu = 2570.2 kJ/kgh = 2676.5 kJ/kgs = 7.3708 kJ/kg.K<p></p><p>Jika diketahui p=50 bar dan cair jenuh, kita dapat menggunakan tabel uap untuk mencari nilai <strong>temperatur </strong>(T), volume spesifik (v), energi dalam (u), enthalpy (h), dan entropy (s).</p><p></p><p>Untuk menentukan sifat/nilai yang lain, mari kita lihat tabel uap air pada tekanan 50 bar:</p><p></p><p>| T (°C)    | p (bar) | v (m³/kg) | u (kJ/kg) | h (kJ/kg) | s (kJ/kg.K) |</p><p>|-----------|------------|--------------|---------------|--------------|----------------|</p><p>| 365.3  | 50        | 0.0912    |  3040.6    | 3210.3    | 6.7071      |</p><p></p><p>Jadi, jika p=50 bar dan cair jenuh:</p>T = 365.3°Cv = 0.0912 m³/kgu = 3040.6 kJ/kgh = 3210.3 kJ/kgs = 6.7071 kJ/kg.K<p>Jika diketahui p=4,5 bar dan x=0,7, kita dapat menggunakan tabel uap untuk mencari nilai temperatur (T), volume spesifik (v), energi dalam (u), enthalpy (h) dan entropy (s).</p><p></p><p>Kita harus menentukan apakah <strong>campuran </strong>berada dalam fase uap atau cair. Jika x=0,7, berarti campuran adalah campuran uap-air.</p><p></p><p>Dari tabel uap air pada tekanan 4,5 bar, kita bisa mencari nilai-nilai yang sesuai dengan x=0,7:</p><p></p><p>| T (°C) | p (bar) |      x      | v (m³/kg) | u (kJ/kg) | h (kJ/kg) | s (kJ/kg.K) |</p><p>|----------|-----------|-----------|--------------|---------------|--------------|----------------|</p><p>| 151.4  | 4.5       |   0.7     | 0.1788    | 2669.7    | 2832.3    | 7.4552     |</p><p></p><p>Jadi, jika p=4,5 bar dan x=0,7:</p>T = 151.4°Cv = 0.1788 m³/kgu = 2669.7 kJ/kgh = 2832.3 kJ/kgs = 7.4552 kJ/kg.K<p></p><p>d. Diketahui T=270°C dan v=0.15 m³/kg, kita bisa menggunakan tabel uap untuk mencari nilai tekanan (p), <strong>energi dalam </strong>(u), enthalpy (h), dan entropy (s).</p><p></p><p>Dari tabel uap air pada suhu 270°C, kita bisa mencari nilai-nilai yang sesuai dengan v=0.15 m³/kg:</p><p></p><p>| T (°C) | p (bar) | v (m³/kg) | u (kJ/kg) | h (kJ/kg) | s (kJ/kg.K) |</p><p>|---------|-----------|------------ --|--------------|--------------|----------------|</p><p>| 270   | 47.89  |    0.15      |    3175.3  | 3353.3   | 7.5324      |</p><p></p><p>Jadi, jika T=270°C dan v=0.15 m³/kg:</p>p = 47.89 baru = 3175.3 kJ/kgh = 3353.3 kJ/kgs = 7.5324 kJ/kg.K<p></p><p>e. Diketahui T = 80°C dan h = 2500 kJ/kg, kita bisa menggunakan tabel uap untuk mencari nilai tekanan (p), <strong>volume spesifik </strong>(v), energi dalam (u), dan entropy (s).</p><p></p><p>Dari tabel uap air pada suhu 80°C, kita bisa  mencari nilai-nilai yang sesuai dengan h=2500 kJ/kg:</p><p></p><p>| T (°C) | p (bar)  | v (m³/kg) | u (kJ/kg) | h (kJ/kg) | s (kJ/kg.K) |</p><p>|---------|------------|---------------|--------------|--------------|----------------|</p><p>| 80     | 0.1863  |   1.0623   | 2452.9    | 2500     | 6.7688     |</p><p></p><p>Jadi, jika T=80°C dan h=2500 kJ/kg:</p>p = 0.1863 barv = 1.0623 m³/kgu = 2452.9 kJ/kgs = 6.7688 kJ/kg.K<p></p><p>Harap digarisbawahi nilai-nilai pada tabel yang digunakan tidak spesifik sehingga jawaban bisa saja bervariasi tergantung tabel uap yang digunakan.</p><p></p>Pelajari Lebih LanjutMateri tentang arti kata suhu dan kalimatnya https://brainly.co.id/tugas/21252733<p></p><p><strong>#BelajarBersamaBrainly</strong></p><p><strong>#SPJ1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="tolong-carikan-verb-dan-subjeknya-tolongg-bgtttt-6-plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-diff">
+                            7. Tolong carikan verb dan subjeknya tolongg bgtttt 6. Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state.  7. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable.  8. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled.  9. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains.  10. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers. </h2><br />
+                        <p><strong>Jawaban:</strong></p><p>6. Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. </p><p>Objects : </p>Plastic recycling.Scrap.Wasted plastics.Useful products.<p>Verbs :</p>Process, ProcessingRecovering.<p></p><p>7. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. </p><p>Objects : </p>A plastic.Products.Recycled Plastics.<p>Verbs :</p>RecycledRecyclable<p></p><p>8. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. </p><p>Objects :</p>GlassMetal MaterialsPlastic polymers<p>Verbs : </p>ComparedRequireProcessingRecycled<p></p><p>9. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. </p><p>Objects :</p>Plastics EntropyPolymer chains<p>Verbs : </p>HaveMixing<p></p><p>10. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers. </p><p>Objects : </p>PlasticsOilWater<p>Verbs :</p>MeltedTend<p><strong>Semoga Membantu:)</strong></p><br />
+                                            <h2 class="ez-toc-section" id="hitunglah-entropy-dan-information-gain-dari-data-berikut">
+                            8. Hitunglah Entropy dan Information Gain dari data berikut</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Maksutnya Gmna si,gapaham bnr</p><br />
+                                            <h2 class="ez-toc-section" id="2-if-two-different-systems-are-put-in-thermal-contact-so-that-heat-can-flow-from-one-to-the-other-then-heat-will-flow-until-the-systems-have-the-same-a-energy-b-heat-capacity-c-en">
+                            9. 2. If two different systems are put in thermal contact so that heat can flow from one to the other, then heat will flow until the systems have the same    (a) energy.     (b) heat capacity.     (c) entropy.     (d) temperature. </h2><br />
+                        <strong>Ans:</strong><br />The heat will flow until the two systems have the same <strong>(d) temperature</strong>.<br /><br />When heat flows no longer, the two systems are in thermal equilibrium, i.e. they have the same temperature.<br />
+                                            <h2 class="ez-toc-section" id="1-pencapaian-untuk-1-keputusasaanwell-mmmh-quis-viralvtentukan-banyaknya-cara-menyusun-dari-dari-1-the-book-of-us2-entropy3-pythagorean%e2%a0%80%e2%a0%80%e2%a0%80%e2%a0%80%e2%a0%80%e2%a0%80">
+                            10. 1 pencapaian untuk 1 KeputusasaanWell, mmmh..Quis VIRAL:VTentukan banyaknya cara menyusun dari  dari :1. The Book of Us2. Entropy3. Pythagorean⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀.⠀⠀⠀ ⠀⠀RUNTHIS⠀⠀▹▹ EXO - DROPTHAT01:01 ─〇─── Not Found⠀ ⠀ ⠀⇄ ◃◃ ⅠⅠ ▹▹ ↻​​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. 6.652.800 susunan</p><p>2. 5.040 susunan</p><p>3. 19.958.400 susunan</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>1. The Book of Us</p><p>T = 1</p><p>H = 1</p><p>E = 1</p><p>B = 1</p><p>O = 3</p><p>K = 1</p><p>F = 1</p><p>U = 1</p><p>S = 1     +</p><p>      11 huruf</p><p>Maka*</p><p>11! / 3!</p><p>(11×10×9×8×7×6×5×4×3×2×1) / (3×2×1)</p><p>39.916.800 / 6</p><p>= <strong>6.652.800</strong><strong> </strong><strong>s</strong><strong>u</strong><strong>s</strong><strong>u</strong><strong>n</strong><strong>a</strong><strong>n</strong></p><p></p><p>2. Entropy</p><p>E = 1</p><p>N = 1</p><p>T = 1</p><p>R = 1</p><p>O = 1</p><p>P = 1</p><p>Y = 1    +</p><p>      7 huruf</p><p>Maka*</p><p>7!</p><p>7×6×5×4×3×2×1</p><p>= <strong>5</strong><strong>.</strong><strong>0</strong><strong>4</strong><strong>0</strong><strong> </strong><strong>s</strong><strong>u</strong><strong>s</strong><strong>u</strong><strong>n</strong><strong>a</strong><strong>n</strong></p><p></p><p>3. Pythagorean</p><p>P = 1</p><p>Y = 1</p><p>T = 1</p><p>H = 1</p><p>A = 2</p><p>G = 1</p><p>O = 1</p><p>R = 1</p><p>E = 1</p><p>N = 1    +</p><p>      11 huruf</p><p>Maka*</p><p>11! / 2!</p><p>(11×10×9×8×7×6×5×4×3×2×1) / (2×1)</p><p>39.916.800 / 2</p><p>= <strong>19.958.400</strong><strong> </strong><strong>s</strong><strong>u</strong><strong>s</strong><strong>u</strong><strong>n</strong><strong>a</strong><strong>n</strong></p><p></p><p>Terimakasih</p>Diketahui : <p>Tentukan banyaknya cara menyusun dari dari :</p><p>1. The Book of Us</p><p>2. Entropy</p><p>3. Pythagorean</p><p>.</p>Ditanya : <p>1. Banyak susunan katanya ?</p><p>2. Banyak susunan katanya ? </p><p>3. Banyak susunan katanya ? </p><p>.</p>Dijawab : 1) <p>The Book of Us</p><p>T = 1</p><p>H = 1</p><p>E = 1</p><p>B = 1</p><p>O = 3</p><p>K = 1</p><p>F = 1</p><p>U = 1</p><p>S = 1 </p><p>Jumlah huruf = 11 </p>Banyak susunan kata dari "The Book of Us"<p>= 11! / 3!</p><p>= ( 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 )/( 3 × 2 × 1 )</p><p>= 39.916.800/6</p><p>= 6.652.800 susunan</p><p>.</p>2) <p>Entropy</p><p>E = 1</p><p>N = 1</p><p>T = 1</p><p>R = 1</p><p>O = 1</p><p>P = 1</p><p>Y = 1</p><p>Jumlah huruf = 7 </p>Banyak susunan kata dari "Entropy"<p>= 7! </p><p>= ( 7 × 6 × 5 × 4 × 3 × 2 × 1 ) </p><p>= 5.040 susunan</p><p>.</p>3) <p>Pythagorean</p><p>P = 1</p><p>Y = 1</p><p>T = 1</p><p>H = 1</p><p>A = 2</p><p>G = 1</p><p>O = 1</p><p>R = 1</p><p>E = 1</p><p>N = 1 +</p><p>11 huruf</p>Banyak susunan kata dari "Pythagorean"<p>= 11!/2!</p><p>= ( 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 )/( 2 × 1 )</p><p>= 39.916.800/2</p><p>= 19.958.400 susunan</p><p>[tex] \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \:  \: [/tex]</p><br />
+                                            <h2 class="ez-toc-section" id="i-have-no-doubt-that-some-will-read-the-byline-of-this-editorial-and-conveniently-turn-off-or-tune-out-without-considering-an-iota-of-the-argument-or-rhetoric-presented-%c2%a0-it-isnt-my-country-the">
+                            11. I have no doubt that some will read the byline of this editorial and conveniently turn off or tune out without considering an iota of the argument or rhetoric presented.  It isn't my country, they certainly are not my children, and whether this country implodes or soars to the heights of success makes little difference to me.
+So what is the major malfunction of the Indonesian education system?    Does anyone seriously believe 'education' in  Indonesia is on par with the west, or even Asian countries like Japan, Korea or Singapore?  Ask the question another way: If you had to have spinal or brain surgery, would you prefer to have that surgery performed here in Jakarta, in Singapore or Hong Kong?  
+If you answered 'here in Indonesia', I would presume you either have a very decently western-trained physician, or else no resources whatsoever.  Or at least, none of my Indonesian friends with any money has ever had major medical procedures performed here.  They very readily say they would rather fly to Singapore than trust an Indonesian doctor to open them up.  Which is all one needs to know when it comes to 'evidence'of the torturous state of Indonesian education.
+Certainly we can take a good deal of time arguing about whose fault it is ' but the more immediate and pressing question ought to be why Indonesia has not followed in the footsteps of Hong Kong, South Korea, Singapore and Japan.  
+Rather than chasing red herrings that lead to nowhere, let us tackle the real problems plaguing the system. Better to kill the disease than merely react the symptoms, after all.
+To all of this I am certain there will come shrill protests that my own country, America, is no shining example to follow.  Indeed, my country has created successive generations of people so devoid of morality that it is soon doomed to entropy in the same way that the Roman Empire did.  
+But one fault is not remedied by pointing out another, and as much as it may please the senses, arguing about my country's shortcomings does nothing to address the issues that plague Indonesia's education system.
+So what are the major issues here in Indonesia?  Let us look at a few.  
+First, corruption: the graft and corruption that is Indonesia is almost unparalleled in scope, and its influence on the educational infrastructure of the country can not be overstated.  It is no mistake that diplomas being easily purchased and cash-laden envelopes greasing the wheels for degrees that have not been actually earned play a large part of the reasoning behind informed, well-off people in Indonesia traveling overseas to get medical attention.
+Second, integrity (a close cousin of the whole 'corruption' thing).  There is none here.  The same person who smiles and assures you all is fine will 10 seconds later stab you in the back with no more than a flinch of a thought, if that.  
+This general deficiency quite literally bleeds into the educational system in this country. You know, the whole idea of paying for scores related to the national exams (UN) administered, the additional concept (practiced regularly) of envelopes of cash exchanged with administrators or teachers that, magically (or not so magically) seem to correlate to above average marks for students who clearly can barely spell their own names, let alone count and reason higher-level arithmetic.
+And thus we come back to the reason well-off Indonesians and expatriates travel overseas for serious medical treatment.
+Does anyone see a pattern here?    That I managed to suck $40,000 plus out of your economy (in US$, by the way, not Rp) is just further evidence of where I was educated, and conversely where I was not educated.  Enough said.
+The writer, who holds a Master's degree in education and a Bachelor's degree in political science and English literature, teaches at an international school in Jakarta
+tolong di translate</h2><br />
+                        Saya tidak ragu bahwa beberapa akan membaca baris demi baris dari karangan ini dan mudah mematikan atau menghilangkan tanpa mempertimbangkan sedikitpun argumen atauretorika yang disajikan. Hal ini tidak di negara saya, mereka pasti bukan tidak anak-anak saya, dan apakah negara ini meledak atau melonjak ke puncak kesuksesan membuat sedikit perbedaan bagi saya.<br />Jadi apa kerusakan utama dari sistem pendidikan di Indonesia? Apakah ada yang serius percaya 'pendidikan' di Indonesia adalah setara dengan barat, atau bahkan negara-negara Asia seperti Jepang, Korea atau Singapura? Mengajukan pertanyaan dengan cara lain: Jika Anda harus menjalani operasi tulang belakang atau otak, akan Anda lebih memilih untuk memiliki operasi yang dilakukan di Jakarta, di Singapura atau Hong Kong?<br />Jika Anda menjawab 'di Indonesia', saya akan menganggap Anda juga memiliki seorang dokter yang sangat sopan barat terlatih, atau tidak ada sumber daya apapun. Atau setidaknya, tak satu pun dari teman-teman saya Indonesia dengan uang yang pernah dimiliki prosedur medis utama yang dilakukan di sini. Mereka sangat mudah mengatakan mereka lebih suka terbang ke Singapura dari percaya dokter Indonesia untuk membuka mereka. Yang semua orang perlu tahu ketika datang ke 'evidence'of negara menyiksa pendidikan Indonesia.<br />Tentu saja kita dapat mengambil banyak waktu berdebat tentang salah siapa itu 'tapi pertanyaan yang lebih langsung dan mendesak seharusnya mengapa Indonesia tidak mengikuti jejak Hong Kong, Korea Selatan, Singapura dan Jepang.<br />Daripada mengejar ikan haring merah yang mengarah ke mana-mana, mari kita mengatasi masalah nyata mengganggu sistem. Lebih baik untuk membunuh penyakit daripada hanya bereaksi gejala, setelah semua.<br />Untuk semua ini saya yakin akan datang protes melengking bahwa negara saya sendiri, Amerika, ada contoh yang bersinar untuk mengikuti. Memang, negara saya telah menciptakan generasi-generasi orang sehingga tanpa moralitas bahwa itu segera ditakdirkan untuk entropi dengan cara yang sama bahwa Kekaisaran Romawi lakukan.<br />Tapi satu kesalahan yang tidak diperbaiki dengan menunjukkan lain, dan sebanyak mungkin menyenangkan indra, berdebat tentang kekurangan negara saya tidak apa-apa untuk mengatasi masalah yang mengganggu sistem pendidikan Indonesia.<br />Jadi apa masalah utama di sini di Indonesia? Mari kita lihat beberapa.<br />Pertama, korupsi: suap dan korupsi yang Indonesia hampir tak tertandingi dalam lingkup, dan pengaruhnya terhadap infrastruktur pendidikan negara tidak dapat dilebih-lebihkan. Hal ini tidak kesalahan yang ijazah yang mudah dibeli dan amplop uang tunai sarat mengoles roda untuk gelar yang belum benar-benar diterima bermain sebagian besar dari alasan di balik informasi, baik-off orang di Indonesia yang bepergian ke luar negeri untuk mendapatkan perhatian medis.<br />Kedua, integritas (sepupu dekat semuanya 'korupsi'). Tidak ada di sini. Orang yang sama yang tersenyum dan meyakinkan Anda semua baik-baik saja 10 detik kemudian akan menusuk Anda di belakang dengan tidak lebih dari gentar dari pikiran, kalau itu.<br />Kekurangan umum ini secara harfiah berdarah ke dalam sistem pendidikan di negeri ini. Anda tahu, seluruh ide membayar untuk nilai yang berkaitan dengan ujian nasional (UN) diberikan, konsep tambahan (dilakukan secara teratur) dari amplop uang tunai ditukar dengan administrator atau guru yang, ajaib (atau tidak begitu ajaib) tampaknya berkorelasi dengan di atas nilai rata-rata untuk siswa yang jelas hampir tidak bisa mengeja nama mereka sendiri, apalagi jumlah dan alasan-tingkat yang lebih tinggi aritmatika.<br />Dan dengan demikian kita kembali ke alasan baik-off Indonesia dan ekspatriat bepergian ke luar negeri untuk perawatan medis serius.<br />Apakah ada yang melihat pola di sini? Bahwa saya berhasil menyedot $ 40.000 ditambah dari ekonomi Anda (dalam US $, dengan cara, tidak Rp) adalah bukti hanya lebih lanjut dari mana saya dididik, dan sebaliknya di mana saya tidak berpendidikan. Cukup kata.<br />Penulis, yang memegang gelar Master di bidang pendidikan dan gelar Bachelor dalam ilmu politik dan sastra Inggris, mengajar di sebuah sekolah internasional di Jakarta<br /><br />Semoga membantu,<br />
+                                            <h2 class="ez-toc-section" id="plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-different-in-form-from-their-original-state-typically-a">
+                            12. Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers. Is plastic recycled into the same type of plastic? aYes, it is. bNo, it isn't. cYes, it does. dNo, it doesn't.</h2><br />
+                        <p>Q : IS the plastic recycled into the same type of plastic?</p><p>A : B. No it ISn't </p><br /><p>Jika yang di tanya menggunakan is, maka di jawab menggunakan is juga</p><br />
+                                            <h2 class="ez-toc-section" id="quis-1002-dari-akun-ke-25-exology01tentukan-banyaknya-susunan-dari-kata-1-negentropy2-jae-park%e2%80%8b">
+                            13. Quis 100/2 dari akun ke 25 @Exology01Tentukan banyaknya susunan dari kata :1. Negentropy2. Jae Park​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. <strong>9</strong><strong>0</strong><strong>7</strong><strong>.</strong><strong>2</strong><strong>0</strong><strong>0</strong><strong> </strong><strong>Susuna</strong><strong>n</strong></p><p>2. <strong>2</strong><strong>.</strong><strong>5</strong><strong>2</strong><strong>0</strong><strong> </strong><strong>Susunan</strong></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>langkah cara ada di gambar</p><p>Tentukan banyaknya susunan dari kata :</p><p>1. Negentropy</p><p>2. Jae Park</p><p>[tex] \\ [/tex]</p>Jawaban<p>[tex] \\ [/tex]</p><p>N = 2</p><p>e = 2</p><p>g = 1</p><p>t = 1</p><p>r = 1</p><p>o = 1</p><p>p = 1</p><p>y = 1</p><p>[tex] \\ [/tex]</p><p>[tex] \sf \: susunan =  \frac{10!}{2! \times 2!}  \\  \\  \sf =  \frac{10!}{2! \times 2!}  \\ \tiny  \sf =  \frac{10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2!}{(2 \times 1) \times {(  \cancel2  \times  \cancel1)}}  \\  \tiny \sf =  \frac{10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3}{2} \:  \:  \:  \:  \:   \\  \tiny \sf =  \frac{1.814.400}{2}  \\  \sf \tiny =907.200 \: susunan[/tex]</p><p>[tex] \\  \\ [/tex]</p><p>J = 1</p><p>a = 2</p><p>e = 1</p><p>p = 1</p><p>r = 1</p><p>k = 1</p><p>[tex] \\ [/tex]</p><p>[tex] \sf \: susunan =  \frac{7!}{2!}  \\  \\  \sf =  \frac{7!}{2!}  \\  \tiny \sf =  \frac{7 \times 6 \times 5 \times 4 \times 3 \times 2 !}{ \cancel 2!}  \\  \tiny \sf = 7 \times 6 \times 5 \times 4 \times 3 \\  \tiny \sf = 2.520 \: susunan[/tex]</p><br />
+                                            <h2 class="ez-toc-section" id="plastic-recycling-is-the-process-of-recovering-scrap-or-waste-plastics-and-reprocessing-the-material-into-useful-products-sometimes-completely-different-in-form-from-their-original-state-typically-a">
+                            14. Plastic recycling is the process of recovering scrap or waste plastics and reprocessing the material into useful products, sometimes completely different in form from their original state. Typically a plastic is not recycled into the same type of plastic, and products made from recycled plastics are often not recyclable. When compared to other materials like glass and metal materials, plastic polymers require greater processing to be recycled. Plastics have a low entropy of mixing, which is due to the high molecular weight of their large polymer chains. When different types of plastics are melted together they tend to phase-separate, like oil and water, and set in these layers.the paragraph above to fill in questions number 1 to 31. What is plastic recycling mean?4 poinThe process of how to make a bottle of plasticThe process of recovering scrap or waste plastics and reprocessing the material into useful productThe way to collect plastics.Step to selling plastics’ product.2. Is plastic recycled into the same type of plastic?4 poinNo, it isn’t.Yes, it isNo, it doesn’t.Yes, it does.3. What’s kind of plastic that require greater processing to be recycled?4 poinbottle plasticbag plasticplastic polymerplastic4. A tsunami is a very large sea wave that is … by a disturbance along the floor of the ocean.4 poinmobilizedgeneratedinfluencedappreciated5. The drugs … by Alysa, she got influenza.4 poinhas drankhave drankhas been drankhad been drank</h2><br />
+                        1. the process of recovering scrap or waste plastic .......<br />2. no, it doesn’t <br />3. plastic polymer <br />4. generated <br />5. has been drank<br />
+                                            <h2 class="ez-toc-section" id="steam-expands-in-a-turbine-steadily-at-a-rate-of-25000-kgh-entering-at-6-mpa-and-450%c2%b0c-and-leaving-at-20-kpa-as-saturated-vapor-if-the-power-generated-by-the-turbine-is-4-mw-determine-the-ra">
+                            15. Steam expands in a turbine steadily at a rate of 25,000 kg/h, entering at 6 mpa and 450°c and leaving at 20 kpa as saturated vapor. if the power generated by the turbine is 4 mw, determine the rate of entropy generation for this process. assume the surrounding medium is at 25°c.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>her and I will be there by yourself in your car for a while to be a long time ago I think you should come in for me to do with the family and my phone and I don't know do it like that but I'm going to get to see me at my house at like half of my friends are </p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/-dUXWLzgE6Q?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>b_indonesia</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/soal-soal-tiu.html">Soal Soal Tiu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/bukaan-kisi-kisi-modernrumah-susun.html">Bukaan Kisi Kisi Modernrumah Susun</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/judul-skripsi-yang-umum.html">Judul Skripsi Yang Umum</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kumpulan-soal-seni-budaya-kelas-8-kurikulum-13.html">Kumpulan Soal Seni Budaya Kelas 8 Kurikulum 13</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kisi-kisi-pjok-pts-2019-smp.html">Kisi Kisi Pjok Pts 2019 Smp</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/permasalahan-di-bidang-ekonomi.html">Permasalahan Di Bidang Ekonomi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kumpulan-soal-persamaan-nilai-mutlak-dan-pembahasannya.html">Kumpulan Soal Persamaan Nilai Mutlak Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kumpulan-judul-skripsi-administrasi-negara-local-wisdom.html">Kumpulan Judul Skripsi Administrasi Negara Local Wisdom</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/judul-skripsi-sistem-informasi-learning.html">Judul Skripsi Sistem Informasi Learning</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kumpulan-soal-kelas-7-semester-1-ppkn.html">Kumpulan Soal Kelas 7 Semester 1 Ppkn</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/judul-skripsi-administrasi-bisnis-persepsi-kualitas.html">Judul Skripsi Administrasi Bisnis Persepsi Kualitas</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/contoh-judul-skripsi-ilmu-komunikasi-public-relations.html">Contoh Judul Skripsi Ilmu Komunikasi Public Relations</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/contoh-judul-skripsi-kepariwisataan.html">Contoh Judul Skripsi Kepariwisataan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/jelaskan-apa-yang-dimaksud-dengan-bhineka-tunggal-ika.html">Jelaskan Apa Yang Dimaksud Dengan Bhineka Tunggal Ika</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/contoh-kisi-kisi-soal-jamur.html">Contoh Kisi Kisi Soal Jamur</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/judul-skripsi-permen-keras-dari-buah-dengen.html">Judul Skripsi Permen Keras Dari Buah Dengen</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kumpulan-soal-recaunt-text-kelas-8-dengan-jawaban.html">Kumpulan Soal Recaunt Text Kelas 8 Dengan Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kisi-kisi-ips-pat-mts-2018kelas8.html">Kisi Kisi Ips Pat Mts 2018kelas8</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/rakyat-singapura-hidup-dari-hasil.html">Rakyat Singapura Hidup Dari Hasil</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsipedia.github.io/kisi-kisi-ujian-praktik-pai-smp-2019.html">Kisi kisi Ujian Praktik Pai Smp 2019</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://skripsipedia.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://skripsipedia.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://skripsipedia.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://skripsipedia.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://skripsipedia.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
